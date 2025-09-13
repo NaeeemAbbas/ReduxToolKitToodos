@@ -8,7 +8,10 @@ const todo = () => {
     <>
       <div> Todo</div>
       {todo.map((todo) => {
-        <li key={todo.id}>{todo.text}</li>;
+        <li key={todo.id}>
+          {todo.text}
+          <button onClick={() => dispatch(removeTodo(todo.id))}>X</button>
+        </li>;
       })}
     </>
   );
