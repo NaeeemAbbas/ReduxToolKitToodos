@@ -5,7 +5,7 @@ import Todos from "./components/todo";
 function App() {
   return (
     <>
-      <h1>Learn About Redux lorem500 </h1>
+      <h1>Learn Ab </h1>
       <AddTodo />
       <Todos />
     </>
